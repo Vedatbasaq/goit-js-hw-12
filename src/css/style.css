@@ -6,14 +6,15 @@ body {
   color: #333;
 }
 
-#search-form {
+/* Form alanı */
+.gallery-form {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
   gap: 10px;
 }
 
-#search-form input {
+.gallery-form input {
   padding: 10px;
   font-size: 16px;
   width: 300px;
@@ -21,7 +22,7 @@ body {
   border-radius: 8px;
 }
 
-#search-form button {
+.gallery-form button {
   padding: 10px 20px;
   background-color: #4f8df3;
   color: white;
@@ -32,10 +33,11 @@ body {
   transition: background-color 0.3s ease;
 }
 
-#search-form button:hover {
+.gallery-form button:hover {
   background-color: #3d75d0;
 }
 
+/* Yükleniyor yazısı */
 .loader {
   text-align: center;
   font-weight: bold;
@@ -44,13 +46,14 @@ body {
   display: none;
 }
 
+/* Galeri alanı */
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 20px;
 }
 
-/* Kart */
+/* Fotoğraf kartı */
 .photo-card {
   display: block;
   border-radius: 8px;
