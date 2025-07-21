@@ -34,7 +34,6 @@ const galleryItem = photoInfo => {
   const contentDiv = document.createElement('div');
   contentDiv.classList.add('content');
 
-  // Beğeniler
   const iLikeDiv = document.createElement('div');
   iLikeDiv.classList.add('info');
 
@@ -48,7 +47,6 @@ const galleryItem = photoInfo => {
   iLikeValue.textContent = photoInfo.likes;
   iLikeDiv.appendChild(iLikeValue);
 
-  // Görüntülemeler
   const iViewsDiv = document.createElement('div');
   iViewsDiv.classList.add('info');
 
@@ -62,7 +60,6 @@ const galleryItem = photoInfo => {
   iViewsValue.textContent = photoInfo.views;
   iViewsDiv.appendChild(iViewsValue);
 
-  // Yorumlar
   const iCommentsDiv = document.createElement('div');
   iCommentsDiv.classList.add('info');
 
@@ -76,7 +73,6 @@ const galleryItem = photoInfo => {
   iCommentsValue.textContent = photoInfo.comments;
   iCommentsDiv.appendChild(iCommentsValue);
 
-  // İndirmeler
   const iDownloadsDiv = document.createElement('div');
   iDownloadsDiv.classList.add('info');
 
